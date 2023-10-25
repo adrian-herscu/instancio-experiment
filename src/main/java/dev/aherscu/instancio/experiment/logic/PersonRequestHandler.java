@@ -2,8 +2,8 @@ package dev.aherscu.instancio.experiment.logic;
 
 import dev.aherscu.instancio.experiment.model.CreatePersonRequest;
 import dev.aherscu.instancio.experiment.model.CreatePersonResponse;
-import jakarta.validation.Validation;
-import jakarta.validation.Validator;
+import javax.validation.Validation;
+import javax.validation.Validator;
 
 public class PersonRequestHandler {
     private static Validator validator = Validation.buildDefaultValidatorFactory().getValidator();

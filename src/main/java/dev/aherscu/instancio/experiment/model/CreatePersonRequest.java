@@ -1,6 +1,6 @@
 package dev.aherscu.instancio.experiment.model;
 
-import jakarta.validation.constraints.NotNull;
+import javax.validation.constraints.NotNull;
 import lombok.EqualsAndHashCode;
 import lombok.ToString;
 import lombok.experimental.SuperBuilder;

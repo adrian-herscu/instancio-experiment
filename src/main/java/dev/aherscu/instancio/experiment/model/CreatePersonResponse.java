@@ -2,7 +2,7 @@ package dev.aherscu.instancio.experiment.model;
 
 import java.util.Set;
 
-import jakarta.validation.ConstraintViolation;
+import javax.validation.ConstraintViolation;
 import lombok.EqualsAndHashCode;
 import lombok.ToString;
 import lombok.experimental.SuperBuilder;
