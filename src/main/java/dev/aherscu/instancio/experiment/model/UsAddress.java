@@ -1,9 +1,8 @@
 package dev.aherscu.instancio.experiment.model;
 
-import javax.validation.constraints.Size;
-import lombok.EqualsAndHashCode;
-import lombok.ToString;
-import lombok.experimental.SuperBuilder;
+import javax.validation.constraints.*;
+import lombok.*;
+import lombok.experimental.*;
 
 @SuperBuilder
 @ToString
