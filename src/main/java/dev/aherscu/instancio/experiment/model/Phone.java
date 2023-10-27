@@ -4,6 +4,7 @@ import javax.validation.constraints.*;
 import lombok.*;
 import lombok.experimental.*;
 
+@Getter
 @SuperBuilder
 @ToString
 @EqualsAndHashCode
